@@ -5,7 +5,7 @@ var fs = require('fs');
 var path = require('path');
 
 // Include the module
-var comment = require('./comment');
+var comment = require('./comments');
 
 // Create server and listen on port 8080
 http.createServer(function(req, res) {
